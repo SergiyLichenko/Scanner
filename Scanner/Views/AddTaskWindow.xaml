@@ -1,0 +1,129 @@
+﻿<Window x:Class="Scanner.Views.AddTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Scanner.Views"
+        xmlns:viewModel="clr-namespace:Scanner.ViewModel"
+        xmlns:validation="clr-namespace:Scanner.Infrastructure"
+        mc:Ignorable="d"
+        Title="AddTask" Height="360" Width="500" WindowStartupLocation="CenterScreen" Icon="/Scanner;component/Images/AddTaskIcon.png">
+    <Window.DataContext>
+        <viewModel:AddTaskWindowViewModel/>
+    </Window.DataContext>
+
+    <DockPanel Background="#232324">
+
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Height="30" 
+                    Width="150" 
+                    Grid.Column="1" 
+                    Margin="30,0,0,15"  
+                    Command="{Binding OkButtonClick}">Ok</Button>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Foreground="White" 
+                       Grid.Column="0" 
+                       Grid.Row="0" 
+                       HorizontalAlignment="Right" 
+                       VerticalAlignment="Center"
+                       Margin="0,0,10,0"
+                       FontSize="14">Starting URL</TextBlock>
+            <TextBox Margin="10,5,5,5" 
+                     Background="#575757" 
+                     Foreground="White" 
+                     HorizontalContentAlignment="Left" 
+                     VerticalContentAlignment="Center" 
+                     TextWrapping="Wrap" 
+                     AcceptsReturn="True" 
+                     Grid.Row="0" 
+                     Grid.Column="1" 
+                     Height="auto" 
+                     Text="{Binding Text}"></TextBox>
+
+            <TextBlock Foreground="White" 
+                       FontSize="14" 
+                       HorizontalAlignment="Right" 
+                       Grid.Row="1" 
+                       Grid.Column="0"  
+                       VerticalAlignment="Center"  
+                       Margin="0,0,10,0"
+                       Height="auto">Searched Text</TextBlock>
+            <TextBox Margin="10,5,5,5" 
+                     Background="#575757" 
+                     Foreground="White"
+                     HorizontalContentAlignment="Left" 
+                     VerticalContentAlignment="Center" 
+                     TextWrapping="Wrap" 
+                     AcceptsReturn="True"
+                     Grid.Column="1" 
+                     Grid.Row="1"
+                     Height="auto" Text="{Binding SearchedText}"/>
+
+            <TextBlock Foreground="White"
+                       FontSize="14"
+                       Grid.Row="2" 
+                       Grid.Column="0"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"  
+                       Margin="0,0,10,0"
+                       Height="auto">Max Threads Count</TextBlock>
+            <ComboBox  Margin="10,0,0,0"
+                       Grid.Column="1" 
+                       Grid.Row="2" 
+                       Height="20"
+                       Width="85"   
+                       HorizontalAlignment="Left"
+                       ItemsSource="{Binding Path=ComboBoxNumbers, Mode=TwoWay}" 
+                       SelectedItem="{Binding ComboBoxSelectedValue}">
+                <ComboBox.ItemContainerStyle>
+                    <Style TargetType="ComboBoxItem">
+                        <Setter Property="Background" Value="#575757"/>
+                        <Setter Property="BorderBrush" Value="#575757"/>
+                    </Style>
+                </ComboBox.ItemContainerStyle>
+            </ComboBox>
+
+            <TextBlock Foreground="White" 
+                       FontSize="14" 
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Right"  
+                       Margin="0,0,10,0"
+                       Grid.Row="3"
+                       Grid.Column="0" 
+                       Height="auto">Max Scanned Urls</TextBlock>
+            <TextBox Height="20"
+                     Width="85" 
+                     HorizontalAlignment="Left"
+                     Foreground="White" 
+                     Background="#575757" Grid.Column="1" 
+                     Grid.Row="3" 
+                     HorizontalContentAlignment="Left" 
+                     VerticalContentAlignment="Center" 
+                     Margin="10,0,0,0">
+                <TextBox.Text>
+                    <Binding Path="MaxScannedUrls" UpdateSourceTrigger="PropertyChanged">
+                        <Binding.ValidationRules>
+                            <validation:StringRangeValidationRule MinimumLength="1" MaximumLength="4" />
+                        </Binding.ValidationRules>
+                    </Binding>
+                </TextBox.Text>
+            </TextBox>
+        </Grid>
+    </DockPanel>
+</Window>
