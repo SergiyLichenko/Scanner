@@ -1,0 +1,52 @@
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\Scanner.exe.config
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\Scanner.exe
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\Scanner.pdb
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\Caliburn.Micro.dll
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\Caliburn.Micro.xml
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Scanner.csprojResolveAssemblyReference.cache
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Views\AddTaskWindow.g.cs
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Views\MainWindow.g.cs
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\App.g.cs
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Scanner_MarkupCompile.cache
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Scanner_MarkupCompile.lref
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Views\AddTaskWindow.baml
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Views\MainWindow.baml
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Scanner.g.resources
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Scanner.Properties.Resources.resources
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Scanner.csproj.GenerateResource.Cache
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Scanner.exe
+C:\Users\liche\Documents\Visual Studio 2015\Projects\Scanner\Scanner\obj\Debug\Scanner.pdb
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\Scanner.exe.config
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Scanner.exe
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Scanner.pdb
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\Scanner.exe
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\Scanner.pdb
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\Caliburn.Micro.dll
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\Caliburn.Micro.Platform.Core.dll
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\Caliburn.Micro.Platform.dll
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\System.Windows.Interactivity.dll
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\Caliburn.Micro.xml
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\Caliburn.Micro.Platform.xml
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\Caliburn.Micro.Platform.Core.xml
+E:\Projects\Apps\Scanner\Scanner\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Scanner.csprojResolveAssemblyReference.cache
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Views\AddTaskWindow.g.cs
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Views\MainWindow.g.cs
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\App.g.cs
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Scanner_MarkupCompile.cache
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Scanner_MarkupCompile.lref
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Views\AddTaskWindow.baml
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Views\MainWindow.baml
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Scanner.g.resources
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Scanner.Properties.Resources.resources
+E:\Projects\Apps\Scanner\Scanner\obj\Debug\Scanner.csproj.GenerateResource.Cache
